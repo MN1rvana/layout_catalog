@@ -260,6 +260,12 @@ p {
   justify-content: center;
 }
 
+@media (min-width: 1024px) {
+  .container {
+    padding: 50px 128px;
+  }
+}
+
 /*
 @media (min-width: 488px) {
   .container {
