@@ -260,13 +260,6 @@ p {
   justify-content: center;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    padding: 50px 128px;
-  }
-}
-
-/*
 @media (min-width: 488px) {
   .container {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -280,8 +273,8 @@ p {
 }
 
 @media (min-width: 1024px) {
-  container {
+  .container {
+    padding: 50px 128px;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
   }
 }
-*/
